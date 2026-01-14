@@ -1,27 +1,33 @@
-# Week 01 — [Main Focus or Theme]
+# Week 01 — Leaving My "Comfort" Zone
 
-**Dates:** [Start Date → End Date]
+**Dates:** January 4, 2026
+
+## Summary
+
+This first week was foundational and energizing. Coming together with other like-minded learners was a key piece I didn’t realize I was missing. Stepping out of my comfort zone is already paying off, and I can finally feel myself moving toward the things I’ve been wanting to pursue for a long time.
 
 ## What I Worked On
-- [Topics, labs, videos, lessons, discussions, etc.]
 
-## Key Concepts & AWS Services Learned
-- [List concepts and AWS services here]
+- Revisited core cloud concepts I’d seen before
+- Strengthened my understanding of AWS global infrastructure
+- Reviewed key components that make up a Virtual Private Cloud (VPC)
 
-## Tools & Commands Used
-- [Terraform, AWS CLI, IAM, Linux commands, etc.]
+> Since this cohort has its own structured learning path, I won’t be sharing detailed curriculum content here, but I will continue reflecting on concepts, progress, and outcomes.
 
-## Challenges & Debugging Notes
-- [Describe problems, errors, how you fixed them]
+## Key Concepts & AWS Services (High-Level)
 
-## Artifacts & Evidence
-- [Link to project folders, code files, diagrams, screenshots]
+- AWS global infrastructure (regions, AZs, networking backbone)
+- VPC foundational building blocks
 
-## Reflection (Brief)
-- [Something that clicked, surprised, stretched, or encouraged you]
+## Community & Collaboration
 
-## Medium Draft Seeds (Optional)
-- [List ideas or angles you may turn into Medium posts]
+I also met a lot of new people who are just as excited as I am about what the future holds in the cloud space. Being in an environment full of motivated learners feels like the push I needed.
 
-## Next Week (Forward Plan)
-- [What you expect to tackle next]
+## Reflection
+
+This week was a whirlwind in the best way possible. I learned, I stretched, and I stepped into the next phase of my cloud journey with more confidence than I had before. I’m looking forward to continuing in the weeks ahead.
+
+## Next Week
+
+- Continue building foundational knowledge
+- Begin hands-on components as we progress
