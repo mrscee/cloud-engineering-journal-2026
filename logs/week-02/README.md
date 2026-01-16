@@ -84,7 +84,6 @@ After saving, AWS generates an **HTTP endpoint**, but access is still blocked.
 ![Bucket policy screenshot](./assets/Snag_bucketEndPoint.png)
 ```
 
-
 ---
 
 ### **Enable Public Access**
@@ -105,7 +104,6 @@ To make the bucket content publicly readable:
 Below permissions is **Bucket Policy**, where a JSON policy is added to allow anonymous GET access:
 
 
-```
 ![Bucket policy screenshot](./assets/Snag_JSONpublic.png)
 ```
 
