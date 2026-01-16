@@ -108,6 +108,7 @@ Below permissions is **Bucket Policy**, where a JSON policy is added to allow an
 ```
 
 Here is the policy as **copyable JSON** :
+```
 
 ```json
 {
@@ -137,7 +138,7 @@ Return to the **Properties** tab to locate the S3 static website endpoint. The s
 - static HTML content
 
 ```
-![Static website endpoint](./assets/snag_htmlsite.png)
+![Static website endpoint](./assets/Snag_HTMLsite.png)
 ```
 
 ---
