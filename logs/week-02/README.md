@@ -1,5 +1,6 @@
 “From On-Prem to the Cloud”
 An S3 Static Website Use Case:
+![Screenshot with article graphic](./assets/articlepic2.jpeg)
 
 By Comfort Benton | Cloud DevOps Engineer
 Press enter or click to view image in full size
