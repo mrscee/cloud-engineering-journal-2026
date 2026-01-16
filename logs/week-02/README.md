@@ -80,7 +80,9 @@ index.html
 
 After saving, AWS generates an **HTTP endpoint**, but access is still blocked.
 ```
-![Enable static website hosting](./assets/Snag_bucketEndPoint.png)
+```
+![Bucket policy screenshot](./assets/Snag_bucketEndPoint.png)
+```
 
 
 ---
