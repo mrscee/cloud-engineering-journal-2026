@@ -78,13 +78,10 @@ index.html
 
 6. Click **Save changes**
 
-📸 _Screenshot placeholder_
-
-```
-![Enable static website hosting](./assets/s3-enable-static-hosting.png)
-```
-
 After saving, AWS generates an **HTTP endpoint**, but access is still blocked.
+```
+![Enable static website hosting](./assets/Snag_bucketEndPoint.png)
+
 
 ---
 
@@ -105,13 +102,12 @@ To make the bucket content publicly readable:
 
 Below permissions is **Bucket Policy**, where a JSON policy is added to allow anonymous GET access:
 
-📸 _Screenshot placeholder_
 
 ```
-![Bucket policy screenshot](./assets/s3-bucket-policy.png)
+![Bucket policy screenshot](./assets/Snag_JSONpublic.png)
 ```
 
-Here is the policy as **copyable JSON** (as requested):
+Here is the policy as **copyable JSON** :
 
 ```json
 {
@@ -140,10 +136,8 @@ Return to the **Properties** tab to locate the S3 static website endpoint. The s
 - a bucket policy
 - static HTML content
 
-📸 _Screenshot placeholder_
-
 ```
-![Static website endpoint](./assets/s3-website-endpoint.png)
+![Static website endpoint](./assets/snag_htmlsite.png)
 ```
 
 ---
