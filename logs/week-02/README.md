@@ -79,10 +79,8 @@ index.html
 6. Click **Save changes**
 
 After saving, AWS generates an **HTTP endpoint**, but access is still blocked.
-```
-```
-![Bucket policy screenshot](./assets/Snag_bucketEndPoint.png)
-```
+
+![Static website hosting screenshot](./assets/Snag_bucketEndPoint.png)
 
 ---
 
@@ -95,7 +93,7 @@ To make the bucket content publicly readable:
 3. Uncheck **Block all public access**
 4. Save changes
 
-⚠️ _This action intentionally opens the bucket; in later phases we re-introduce security via CloudFront_.
+⚠️ _This action intentionally opens the bucket; in later phases we re-introduce security via CloudFront._
 
 ---
 
@@ -103,12 +101,9 @@ To make the bucket content publicly readable:
 
 Below permissions is **Bucket Policy**, where a JSON policy is added to allow anonymous GET access:
 
-
 ![Bucket policy screenshot](./assets/Snag_JSONpublic.png)
-```
 
-Here is the policy as **copyable JSON** :
-```
+Here is the policy as **copyable JSON**:
 
 ```json
 {
@@ -137,9 +132,7 @@ Return to the **Properties** tab to locate the S3 static website endpoint. The s
 - a bucket policy
 - static HTML content
 
-```
 ![Static website endpoint](./assets/Snag_HTMLsite.png)
-```
 
 ---
 
@@ -168,4 +161,3 @@ With the website live, attention shifts to:
 These enhancements maintain the same static hosting model while improving global latency and tightening access controls.
 
 ---
-
