@@ -1,66 +1,119 @@
-“From On-Prem to the Cloud”
-An S3 Static Website Use Case:
+# From On-Prem to the Cloud: Migrating a Static Website to AWS S3
 
-![Screenshot with article graphic](./assets/articlepic2.jpeg)
+_By Comfort Benton | Cloud DevOps Engineer_
 
-By Comfort Benton | Cloud DevOps Engineer
- 
+---
 
-🟦 CASE OVERVIEW | Migrating a Static Website to AWS S3
+## 🟦 Case Overview — Migrating a Static Marketing Site to AWS
 
-I’ve been asked to migrate the marketing website for Level Up Bank, a fictional online financial institution, from on-premises to the cloud. The original website lived on a physical server that the company had to maintain, patch, and pay for itself. That setup works in the beginning, but over time, it becomes expensive, harder to scale, and slower for customers visiting the site from different regions.
+Level Up Bank is a fictional online financial institution whose customer-facing marketing website previously ran on an on-premises web server. That environment required physical hardware, patching, capacity planning, and ongoing operational overhead.
 
-The website itself was informational. It did not include login features, custom dashboards, or any server-side processing. In cloud terms, that makes it a static website, meaning it can be delivered as plain files without needing servers or databases running in the background.
+The site itself was static — meaning no logins, session state, dashboards, or dynamic compute — making it a perfect candidate for static object storage on AWS.
 
-My goal for this project was to move the site into AWS in a way that would reduce cost, improve availability, enhance performance, and require less ongoing maintenance. I also wanted to explore how global content delivery and secure access could be achieved without complicating the architecture.
+**Primary goals for this migration:**
 
-🟦 PROJECT PHASES
+- reduce infrastructure cost
+- simplify ongoing maintenance
+- improve availability & durability
+- improve performance for global users
+- begin adopting cloud-native delivery patterns
 
-This deployment can be broken down into three stages, each one building on the last:
+AWS S3 meets all of these criteria for static content without requiring servers, autoscaling, or managed fleets.
 
-Foundational — Host the static website using Amazon S3
-Performance — Add CloudFront for global delivery and HTTPS
-Security — Block direct S3 access and enforce CloudFront as the entry point
+---
 
-🟦 FOUNDATIONAL — Host the Website Using Amazon S3
+## 🟦 Project Phases
 
-Create the bucket
+This deployment breaks down into three logical phases:
 
-1. In the AWS Console, search S3
+1. **Foundational** — host static website using Amazon S3
+2. **Performance** — improve global delivery using CloudFront + HTTPS
+3. **Security** — remove direct S3 access and enforce CloudFront as the choke point
 
-2. On the landing page, click Create bucket
+This case study focuses on the **foundational deployment**.
 
-3. Enter a unique “Bucket name,” with no spaces. For example, I chose lubank-website-s3
+---
 
-4. Leave all other defaulted items as is and click Create bucket the bottom
+## 🟦 Phase 1: Foundational — Host Website Using Amazon S3
 
-Upload file to bucket
+### **Create S3 Bucket**
 
-5. Select your newly created bucket to then upload
+1. Open the AWS Console and search for **S3**
+2. Click **Create bucket**
+3. Choose a unique bucket name (no spaces). Example:
 
-the static website index.html file provided. You can click Add files
+```
+lubank-website-s3
+```
 
-or you can drag-and-drop the file, click Upload, and close.
+4. Leave default settings
+5. Click **Create bucket**
 
-Modify bucket to host a static website
+> 📁 _A bucket now exists to hold static website objects._
 
-6. On the new bucket page, select the “Properties” tab, look for “Static website hosting” and click Edit to Enable
+---
 
+### **Upload Website Files**
 
-7. On that page, specify your uploaded .html file as the “Index document” and click Save changes
+1. Select the new bucket
+2. Click **Upload**
+3. Add the provided `index.html`
+4. Click **Upload** → **Close**
 
-8. At the bottom of the page you will see you now have, although still blocked, a link to the page.
+> 📝 _No backend or compute is required for static delivery._
 
-Press enter or click to view image in full size
+---
 
-Enable public access
+### **Enable Static Website Hosting**
 
-9. Go back to the top of the new bucket page, select the “Permissions” tab. In “Block public access (bucket settings)” click Edit to deselect “Block all public access” and click Save changes
+1. Navigate to **Properties** tab
+2. Scroll to **Static website hosting**
+3. Click **Edit**
+4. Select **Enable**
+5. Set index document to:
 
-10. Just below is “Bucket Policy”, where I added code written in JSON to grant public read access to the bucket using the bucket ARN in code and Save Changes. Various bucket policies can be found with a quick online search.
+```
+index.html
+```
 
-Press enter or click to view image in full size
+6. Click **Save changes**
 
+📸 _Screenshot placeholder_
+
+```
+![Enable static website hosting](./assets/s3-enable-static-hosting.png)
+```
+
+After saving, AWS generates an **HTTP endpoint**, but access is still blocked.
+
+---
+
+### **Enable Public Access**
+
+To make the bucket content publicly readable:
+
+1. Go to **Permissions** tab
+2. Under **Block public access**, click **Edit**
+3. Uncheck **Block all public access**
+4. Save changes
+
+⚠️ _This action intentionally opens the bucket; in later phases we re-introduce security via CloudFront_.
+
+---
+
+### **Add Bucket Policy for Public Read**
+
+Below permissions is **Bucket Policy**, where a JSON policy is added to allow anonymous GET access:
+
+📸 _Screenshot placeholder_
+
+```
+![Bucket policy screenshot](./assets/s3-bucket-policy.png)
+```
+
+Here is the policy as **copyable JSON** (as requested):
+
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -73,17 +126,51 @@ Press enter or click to view image in full size
         }
     ]
 }
+```
 
-11. Now, under the “Properties” tab, our endpoint link can be seen by the public:
+> 💡 _This policy allows public read on all objects within the bucket. Later phases remove the need for direct S3 access._
 
-Press enter or click to view image in full size
+---
 
-Press enter or click to view image in full size
+### **Accessing the Website**
 
-🟦 FOUNDATIONAL WRAP-UP
+Return to the **Properties** tab to locate the S3 static website endpoint. The site is now publicly reachable over HTTP using only:
 
-With the foundational work completed, the Level Up Bank website was officially live on the public internet using nothing more than S3’s built-in static hosting feature. There were no servers to manage, no auto-scaling groups to configure, and no operating systems to patch or maintain. AWS handled the storage, durability, and availability of the website without requiring any additional infrastructure.
+- S3 website hosting
+- a bucket policy
+- static HTML content
 
-This established the baseline experience. The site was hosted, reachable, and served over HTTP without any compute resources involved. With the site now operational, the next engineering focus becomes performance and security hardening through CloudFront and HTTPS.
+📸 _Screenshot placeholder_
 
-***
+```
+![Static website endpoint](./assets/s3-website-endpoint.png)
+```
+
+---
+
+## 🟦 Foundational Wrap-Up
+
+The Level Up Bank marketing site is now serving static content from AWS without:
+
+- EC2 instances
+- Auto Scaling Groups
+- reverse proxies
+- OS patching
+- server maintenance
+- load balancers
+
+AWS manages storage, durability, and availability. The site is public and hosted, establishing the baseline deployment.
+
+---
+
+## 🟦 Next Phase Preview
+
+With the website live, attention shifts to:
+
+- performance (via CloudFront edge caching & HTTPS termination)
+- security (removing direct S3 URL access & enforcing CloudFront as entry point)
+
+These enhancements maintain the same static hosting model while improving global latency and tightening access controls.
+
+---
+
