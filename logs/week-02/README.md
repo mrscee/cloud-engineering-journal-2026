@@ -19,6 +19,7 @@ This deployment can be broken down into three stages, each one building on the l
 Foundational — Host the static website using Amazon S3
 Performance — Add CloudFront for global delivery and HTTPS
 Security — Block direct S3 access and enforce CloudFront as the entry point
+
 🟦 FOUNDATIONAL — Host the Website Using Amazon S3
 
 Create the bucket
@@ -27,14 +28,12 @@ Create the bucket
 
 2. On the landing page, click Create bucket
 
-
 3. Enter a unique “Bucket name,” with no spaces. For example, I chose lubank-website-s3
 
 4. Leave all other defaulted items as is and click Create bucket the bottom
 
 Upload file to bucket
 
-Become a member
 5. Select your newly created bucket to then upload
 
 the static website index.html file provided. You can click Add files
@@ -72,6 +71,7 @@ Press enter or click to view image in full size
         }
     ]
 }
+
 11. Now, under the “Properties” tab, our endpoint link can be seen by the public:
 
 Press enter or click to view image in full size
