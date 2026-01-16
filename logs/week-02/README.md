@@ -1,9 +1,10 @@
-“From On-Prem to the Cloud”
-An S3 Static Website Use Case:
+##“From On-Prem to the Cloud”
+##An S3 Static Website Use Case:
+
 ![Screenshot with article graphic](./assets/articlepic2.jpeg)
 
-By Comfort Benton | Cloud DevOps Engineer
-Press enter or click to view image in full size
+#By Comfort Benton | Cloud DevOps Engineer
+ 
 
 🟦 CASE OVERVIEW | Migrating a Static Website to AWS S3
 
