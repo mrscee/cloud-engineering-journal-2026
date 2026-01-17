@@ -21,7 +21,19 @@ This week introduced several foundational AWS services that support modern appli
 - **CI** automates building and testing
 - **CD** automates deployment
 - Reduces manual steps and human error during releases
-- AWS Development tools: **CodeCommit** **CodeBuild** **CodeDeploy** **CodePipeline**
+- AWS Development tools: 
+**CodeCommit** — *Source & Version Control*  
+Managed Git-based source control service for teams to collaborate on code, scripts, HTML pages, images, and binaries.
+
+**CodeBuild** — *Automated Build*  
+Compiles source code, runs automated tests, and produces build artifacts/packages that are ready to deploy.
+
+**CodeDeploy** — *Automated Deployment*  
+Automates code deployments to EC2, Lambda, and on-premises servers with support for blue/green and rolling updates.
+
+**CodePipeline** — *Manages the Workflow*  
+
+End-to-end CI/CD orchestration that automatically builds, tests, and deploys application changes whenever code updates occur.
 
 ### AWS Development Tools
 - **CloudShell / AWS CLI** — command-line interaction with AWS
