@@ -41,6 +41,7 @@ This week introduced several foundational AWS services that support modern appli
 - Durable message queue for work distribution
 - Consumers poll queues and process at their own pace
 - Supports Standard + FIFO queues
+- All for decoupling components of applications
 
 ### Polling
 - **Short Polling** — quick checks for messages
