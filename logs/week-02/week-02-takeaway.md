@@ -21,6 +21,7 @@ This week introduced several foundational AWS services that support modern appli
 - **CI** automates building and testing
 - **CD** automates deployment
 - Reduces manual steps and human error during releases
+- AWS Development tools: **CodeCommit** **CodeBuild** **CodeDeploy** **CodePipeline**
 
 ### AWS Development Tools
 - **CloudShell / AWS CLI** — command-line interaction with AWS
