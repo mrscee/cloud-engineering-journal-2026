@@ -1,3 +1,96 @@
+# Development, Messaging, and Deployment Services — My Takeaways
+
+This week introduced several foundational AWS services that support modern application development, deployment, and communication. The lesson content covered the tooling around how applications get built, deployed, and decoupled across cloud environments.
+
+---
+
+## What I Worked Through
+
+- CI/CD concepts and workflows
+- AWS development tools (CloudShell, CLI, Cloud9, CodeArtifact)
+- Application decoupling approaches
+- Messaging & notification services (SNS, SQS, SES)
+- Event-driven routing with EventBridge
+- Orchestration with Step Functions
+
+---
+
+## Key Concepts in Plain Language
+
+### CI/CD
+- **CI** automates building and testing
+- **CD** automates deployment
+- Reduces manual steps and human error during releases
+
+### AWS Development Tools
+- **CloudShell / AWS CLI** — command-line interaction with AWS
+- **Cloud9** — browser-based IDE for cloud development without local setup
+- **CodeArtifact** — internal package repository for sharing libraries
+
+### Decoupling Applications
+- Services don’t call each other directly
+- Improves scalability, reliability, and failure isolation
+
+### Amazon SNS (Simple Notification Service)
+- Publish/subscribe (pub/sub) messaging
+- One message can fan out to multiple subscribers
+- Often used for notifications and system fan-out
+
+### Amazon SQS (Simple Queue Service)
+- Durable message queue for work distribution
+- Consumers poll queues and process at their own pace
+- Supports Standard + FIFO queues
+
+### Polling
+- **Short Polling** — quick checks for messages
+- **Long Polling** — waits for messages and reduces empty receives
+
+### Amazon SES (Simple Email Service)
+- Used for transactional and bulk email from applications
+- Examples: password resets, receipts, confirmations
+
+### Amazon EventBridge
+- Event routing + filtering
+- Enables event-driven architectures without tight coupling
+
+### AWS Step Functions
+- Orchestration + workflow engine
+- Handles retries, wait states, branching, error handling
+
+---
+
+## Real-World Connections
+
+These services support patterns commonly used in modern cloud-native systems:
+
+- asynchronous processing
+- microservices communication
+- distributed workflows
+- failure handling
+- fan-out scenarios
+- scalable deployments
+
+The services in this section are the **building blocks** for how cloud applications talk, coordinate, notify, and scale.
+
+---
+
+## Personal Takeaway
+
+The lesson content was straightforward, but the bigger value came from understanding how these services work together rather than in isolation. Messaging (SNS, SQS, SES), eventing (EventBridge), and orchestration (Step Functions) solve different parts of the communication story in a distributed application.
+
+---
+
+## Screenshots To Be Added
+
+- [Screenshot: Messaging Section Progress](#)
+- [Screenshot: SNS Topic Creation](#)
+- [Screenshot: SQS Queue View](#)
+
+---
+
+
+
+
 # DynamoDB + CloudFormation Lab — My Takeaways
 
 For Week 02, I completed a short lab that used CloudFormation to provision a DynamoDB table for a fictitious pizza inventory application. The lab itself was simple, but it served as a clean introduction to what Infrastructure-as-Code feels like inside AWS.
