@@ -161,8 +161,8 @@ To be added:
 - [Mom-and-Dad Test Table Screenshot](#)
 
 ---
-## Elastic Beanstalk — My Takeaways
-
+## Other Takeaways
+### Elastic Beanstalk
 Elastic Beanstalk is a managed platform-as-a-service (PaaS) that takes application code and automatically provisions the underlying infrastructure for you (EC2, autoscaling, load balancing, health checks, deployments, and monitoring) without requiring you to touch those pieces directly.
 
 To deploy with Elastic Beanstalk, you:
@@ -172,3 +172,6 @@ To deploy with Elastic Beanstalk, you:
 3. Upload your application code and let Beanstalk handle the rest
 
 This enables a deployment experience where the application runs on AWS without the need to manually provision, configure, or maintain EC2 instances yourself.
+
+### AWS X-Ray
+X-Ray traces how requests move through distributed applications so engineers can find performance bottlenecks, errors, and latency. Applications must be instrumented for X-Ray to collect data, and companies pay for usage. It’s more common in modern DevOps/SRE work than in early-stage junior cloud roles.
