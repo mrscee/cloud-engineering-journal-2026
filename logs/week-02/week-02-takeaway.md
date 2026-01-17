@@ -161,3 +161,14 @@ To be added:
 - [Mom-and-Dad Test Table Screenshot](#)
 
 ---
+## Elastic Beanstalk — My Takeaways
+
+Elastic Beanstalk is a managed platform-as-a-service (PaaS) that takes application code and automatically provisions the underlying infrastructure for you (EC2, autoscaling, load balancing, health checks, deployments, and monitoring) without requiring you to touch those pieces directly.
+
+To deploy with Elastic Beanstalk, you:
+
+1. Create a **service role** for Elastic Beanstalk to deploy services on your behalf  
+2. Create an **EC2 instance role** to allow Elastic Beanstalk to administer AWS services such as EC2, RDS, S3, ELB, and Auto Scaling Groups on your behalf  
+3. Upload your application code and let Beanstalk handle the rest
+
+This enables a deployment experience where the application runs on AWS without the need to manually provision, configure, or maintain EC2 instances yourself.
