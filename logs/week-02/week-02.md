@@ -36,7 +36,7 @@ This lab wasn’t about pizza toppings or DynamoDB specifics. The real focus was
 Template → Stack → Provision → Validate → Delete
 
 
-The lab just provided the **baseline** — the deeper understanding came from asking questions about how DynamoDB works behind the scenes (schema, billing modes, storage, durability, and cost).
+The lab just provided the baseline; the deeper understanding came from asking questions about how DynamoDB works behind the scenes (schema, billing modes, storage, durability, and cost).
 
 ---
 
