@@ -190,3 +190,43 @@ This enables a deployment experience where the application runs on AWS without t
 
 ### AWS X-Ray
 X-Ray traces how requests move through distributed applications so engineers can find performance bottlenecks, errors, and latency. Applications must be instrumented for X-Ray to collect data, and companies pay for usage. It’s more common in modern DevOps/SRE work than in early-stage junior cloud roles.
+
+
+## Snow Family (Bulk Data Transfer Appliances)
+
+The Snow Family provides physical devices for bulk data migration when network transfer would be too slow or impractical:
+
+- **Snowball** — Move 10+ TB of data to AWS.
+- **Snowball Edge** — Move 10+ TB and also process data on the device before transfer.
+- **Snowmobile** — Used for 10+ PB (petabyte-scale) migrations using a secure truck.
+- **Snowcone** — Small, rugged, portable device supporting up to 14 TB.
+
+**Use case:** Large offline data transfers into AWS when bandwidth is the bottleneck.
+
+
+## Database Migration (DMS + SCT)
+
+AWS provides tools for migrating and converting databases:
+
+- **Database Migration Service (DMS)**  
+  Migrates existing databases and analytics workloads from EC2, on-premises, or RDS into AWS with minimal downtime.
+
+- **Schema Conversion Tool (SCT)**  
+  Converts database schema and code from one engine to another, such as:
+  - Oracle → Aurora MySQL
+  - MySQL → RDS MySQL
+  - SQL Server → Aurora PostgreSQL
+
+**Key point:** DMS moves the data; SCT handles schema changes when engines differ.
+
+
+## AWS Transfer Family (File Transfer Endpoints)
+
+The AWS Transfer Family provides managed file transfer endpoints for external parties and clients:
+
+- Supports file sharing and transfer in/out of AWS.
+- Supports both download (SFTP GET) and upload (SFTP PUT).
+- Works with multiple protocols including SFTP, FTPS, AS2, and FTP.
+- Integrates directly with AWS storage (commonly S3).
+
+**Use case:** Secure file transfer workflows with partners, vendors, or legacy clients. 
