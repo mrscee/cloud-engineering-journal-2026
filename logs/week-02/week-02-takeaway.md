@@ -414,4 +414,115 @@ DataSync is one of those AWS services where certification material doesn’t ful
 
 The Snow Family is about **physical data transport**, whereas DataSync is about **network-based sustained transfer**, and the Autodesk case made that distinction clear.
 
+## AWS Application Discovery Service (ADS) — My Takeaways
+
+**Mental Model:**  
+Think of ADS as an **inventory + dependency scanner** for data centers. It surfaces what exists, what talks to what, and what needs to move together so you don’t break anything during migration.
+
+**What it is:**  
+A tool used to automatically identify and map on-premises applications, servers, and dependencies prior to migration.
+
+**Why it exists (real-world):**  
+Enterprises often have legacy environments with:
+- tribal knowledge
+- undocumented dependencies
+- multiple data centers
+- staff turnover
+- acquired systems
+- aging infrastructure
+
+ADS helps answer practical migration questions such as:
+- What applications are running?
+- What systems depend on each other?
+- What needs to move together?
+- What can be retired or modernized?
+
+This prevents migration failures caused by missing dependencies (e.g., moving a billing app but forgetting its SQL database or file share).
+
+**Use Case Summary:**  
+ADS reduces migration risk by replacing tribal knowledge with actual dependency mapping.
+
+
+---
+
+## AWS Application Migration Service (MGN) — My Takeaways
+
+**Mental Model:**  
+MGN is the **lift-and-shift conveyor belt** that moves applications as-is into AWS with minimal downtime, before anyone starts modernizing, refactoring, or containerizing them.
+
+**What it is:**  
+AWS’s managed **lift-and-shift (rehost)** migration service that moves applications to AWS **as-is**, without requiring code changes or refactoring.
+
+**Why companies use it:**  
+- least disruptive migration path
+- lowest business risk
+- supports legacy and monolithic systems
+- avoids rewriting during migration
+- maintains uptime during transfer phase
+
+**How migration works conceptually:**
+1. **Initial Sync** — copies full server image to AWS
+2. **Continuous Replication** — streams deltas while users keep working
+3. **Cutover Window** — short maintenance window for final sync + traffic switch
+4. **Validation** — verify app behavior in AWS
+5. **Decommission** — retire on-prem systems when safe
+
+**Zero Downtime Note:**  
+Users can continue using the application during replication; only the final cutover requires a brief coordinated window.
+
+**Why modernization waits until after migration:**  
+- reduces complexity and failure points
+- isolates variables (move first, change later)
+- respects compliance & business continuity
+- enables CI/CD + DevOps practices once in AWS
+
+
+---
+
+## AWS Migration Hub — Quick Notes
+
+**Mental Model:**  
+Migration Hub is the **project dashboard** for migrations. It doesn’t perform the migration — it shows **status, progress, and inventory** across tools.
+
+**What it does:**  
+- tracks migration tasks across multiple tools
+- aggregates inventory + status into one view
+- helps coordinate cutovers and workload movement
+
+**What it doesn’t do:**  
+- does not move data
+- does not run cutovers
+- does not modernize workloads
+
+**Who benefits from it:**  
+- architects
+- project managers
+- cloud onboarding teams
+- stakeholders who need visibility
+
+Migration Hub is especially useful on multi-server or multi-app migration projects where coordination matters.
+
+
+---
+
+### Who Performs the Migration?
+
+Depending on the customer, migrations may be executed by:
+- **AWS ProServe** — for large/complex migrations
+- **AWS Partners (SI/MSP)** — consulting or managed service providers
+- **The Customer** — internal IT/cloud teams using AWS tooling
+
+
+---
+
+### Who Handles Post-Migration Maintenance?
+
+Operational responsibility typically falls into:
+- **Customer-Owned Model** — customer manages access, lifecycle, retrieval, compliance, etc.
+- **Partner-Managed MSP Model** — MSP handles operational tasks on customer’s behalf
+- **AWS Enterprise Support / ProServe** — advisory + support, but not day-to-day data operations
+
+> Note: AWS provides the infrastructure platform, not traditional MSP-style operations.
+
+
 
