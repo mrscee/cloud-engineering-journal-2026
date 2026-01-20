@@ -963,5 +963,121 @@ Managed search + analytics engine (Elasticsearch-compatible).
 
 ---
 
+## 🧠 Batch 4 — AI as a Service (Quick Takeaways)
+
+These AWS services give you pre-built AI/ML capabilities without needing to build or train your own model.
+
+---
+
+### 🔍 **Amazon Kendra — Intelligent Enterprise Search**
+
+**What it is:**  
+AI-powered search engine for enterprise data.
+
+**Use it when:**  
+You want users to **ask natural language questions** and get accurate answers from internal documents.
+
+**Key notes:**
+- Connects to data sources like S3, RDS, FSx, GitHub, Google Drive.
+- Handles **fact-based** and **descriptive** queries.
+- Good for **knowledge bases**, **help desks**, and **internal search**.
+
+---
+
+### 💬 **Amazon Lex — Conversational Chatbot Builder**
+
+**What it is:**  
+Service for building chatbots and voicebots using natural language understanding.
+
+**Use it when:**  
+You need an interface that understands and responds to user input (like a helpdesk bot).
+
+**Key notes:**
+- Uses natural language models for intent + slot extraction.
+- Think: *Alexa-style conversational workflows*.
+
+---
+
+### 🗣️ **Amazon Polly — Text-to-Speech**
+
+**What it is:**  
+Converts text into **natural-sounding speech**.
+
+**Use it when:**  
+You need **speech output** (IVR systems, apps, accessibility, voice alerts).
+
+---
+
+### 📈 **Amazon Comprehend — Text Analysis / NLP**
+
+**What it is:**  
+Managed NLP service for extracting structure and meaning from text.
+
+**Use it when:**  
+You need to analyze text for:
+- **sentiment** (positive/neutral/negative)
+- **entities** (people/places/things)
+- **topics**
+- **key phrases**
+- **language detection**
+
+**Common use cases:**
+- Customer feedback analysis
+- Intelligent search
+- Content classification
+
+---
+
+### 📄 **Amazon Textract — Document Extraction**
+
+**What it is:**  
+Extracts text, tables, and key-value pairs from documents (PDFs, forms, images).
+
+**Use it when:**  
+You want to replace **manual data entry** from scanned documents.
+
+---
+
+### 🎙 **Amazon Transcribe — Speech to Text**
+
+**What it is:**  
+Converts **spoken audio → text**.
+
+**Use it when:**  
+You need transcripts of:
+- calls
+- meetings
+- videos
+- voice notes
+
+---
+
+### 🌍 **Amazon Translate — Language Translation**
+
+**What it is:**  
+Neural machine translation for converting text between languages.
+
+**Use it when:**  
+You need dynamic language support in apps, content, or chat.
+
+---
+
+### 📷 **Amazon Rekognition — Image/Video Analysis**
+
+**What it is:**  
+Computer vision service for understanding images & video.
+
+**Use it when:**  
+You need detection of:
+- objects
+- people
+- text
+- activities
+- emotions
+- inappropriate content
+- face comparison/verification
+
+---
+
 
 
