@@ -620,4 +620,36 @@ And accelerates:
 ### 7. One-Sentence Explanation
 > Athena lets teams query raw data in S3 using SQL without running databases or clusters. Glue provides the table metadata so Athena can interpret the files. This is ideal for early analytics and forensics before adopting a heavier warehouse like Redshift.
 
+## Amazon Redshift — My Takeaways
 
+**What it is**  
+Amazon Redshift is AWS’s managed **data warehousing** service designed for large-scale analytical workloads.
+
+**Key points**
+
+- Redshift is a **data warehouse** used for analytics and reporting.
+- **Redshift Serverless** removes the need to manage warehouse infrastructure.
+- Can store and query a **huge amount of data**.
+- Designed for **Online Analytical Processing (OLAP)** workloads, not transactional OLTP.
+
+**Mental model**  
+Redshift = the analytical SQL warehouse that stores and processes large datasets;  
+QuickSight = the BI layer that sits on top to visualize and share insights.
+
+## Amazon QuickSight — My Takeaways
+
+**What it is**  
+Amazon QuickSight is AWS’s business analytics (BI) service that lets you make better decisions based on your data.
+
+**Key points**
+
+- Connects to both **AWS data sources** and **on-premises data**.
+- Used to **build dashboards and visualizations**.
+- Helps business users explore and analyze data without touching the underlying infrastructure.
+- Common use cases:
+  - Analyze **sales performance and trends**
+  - Analyze **application usage and traffic**
+  - Analyze **marketing campaign** performance
+
+**Mental model**  
+QuickSight = AWS’s version of Power BI/Tableau for dashboards and business analytics.
