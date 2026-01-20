@@ -904,4 +904,64 @@ Supports:
 
 Batch 2 deepened understanding of streaming and analytics ecosystems, focusing on event-driven ingestion, delivery pipelines, and observability patterns used heavily in FinTech, IoT, and modern cloud-native systems.
 
+## 📌 AWS Batch 3 (Specialty/ML Platforms) — Quick Takeaways
+
+### 🟣 Amazon EMR (Elastic Map Reduce)
+
+**What it is:**  
+Managed big data processing service for distributed analytics at scale.
+
+**Key points:**
+- AWS handles infra + cluster provisioning for you.
+- Runs open-source frameworks like **Spark**, **Hive**, **Presto**, **Hadoop**.
+- Can scale **up/down dynamically** for performance & cost.
+- Built for **petabyte-scale** parallel data processing.
+
+**Common use cases:**
+- Clickstream analysis
+- Genomics data processing
+- Application log analysis
+- Large ETL & batch analytics workloads
+
+---
+
+### 🟣 Amazon SageMaker
+
+**What it is:**  
+Fully managed machine learning platform that covers the full ML lifecycle.
+
+**Key points:**
+- Handles **data preparation**, **training**, **tuning**, and **deployment**.
+- Removes the need to manage training infra manually.
+- Optimized environments for training at scale.
+- Supports deploying trained models behind secure endpoints.
+
+**Common use cases:**
+- Predictive analytics
+- Recommendation systems
+- Classification & clustering
+- Custom ML model deployment
+
+---
+
+### 🟣 Amazon OpenSearch
+
+**What it is:**  
+Managed search + analytics engine (Elasticsearch-compatible).
+
+**Key points:**
+- Fully managed, open-source compatible (Elasticsearch APIs, Logstash, Kibana).
+- Ingests data from services like **CloudWatch Logs**, **S3**, **DynamoDB**.
+- Designed for near real-time log + metric analysis.
+
+**Common use cases:**
+- **Log analytics**
+- **Security analytics**
+- **Application monitoring**
+- **Business data analytics**
+- Full text search across large datasets
+
+---
+
+
 
