@@ -29,6 +29,11 @@ This repo will document:
 - Additional tools as I advance (to be added)
 
 ## Structure of This Repository
+### Quick Navigation
+- [Weekly Logs](/logs)
+- [Projects](/projects)
+- [Resources](/resources)
+
 
 ## Weekly Learning Logs
 
