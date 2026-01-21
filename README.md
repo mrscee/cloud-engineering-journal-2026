@@ -1,6 +1,8 @@
 # Cloud Engineering Journal (2026)
 
 This repository is my ongoing cloud engineering learning journal as I work with a community of like minded engineers and continue developing AWS and DevOps skills.
+This journal updates weekly throughout 2026 as I continue building cloud engineering skills in AWS, Terraform, and DevOps tooling.
+
 
 This repo will document:
 
