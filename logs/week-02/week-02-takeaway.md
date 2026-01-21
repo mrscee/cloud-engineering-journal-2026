@@ -17,7 +17,7 @@ This week introduced several foundational AWS services that support modern appli
 
 ## Key Concepts in Plain Language
 
-### CI/CD
+### CI/CD (Continuous Integration / Continuous Delivery or Deployment)
 - **CI** automates building and testing
 - **CD** automates deployment
 - Reduces manual steps and human error during releases
