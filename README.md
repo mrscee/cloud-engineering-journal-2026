@@ -44,9 +44,9 @@ Project artifacts, labs, and cloud builds live here:
 
 (Will fill over time; examples below)
 
-- Week 01: VPC fundamentals and Terraform provisioning
-- Week 02: IAM, roles, and least privilege workflows
-- Week 03: Monitoring, metrics, and CloudWatch alerts
+- Week 01: Cloud Foundations, storage, databases
+- Week 02: Deployment, migration and AI
+- Week 03: Monitoring, metrics, and CloudWatch, Pricing
 - Week 04: (to be added)
 
 ## Background & Phase Transition
