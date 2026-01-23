@@ -126,6 +126,8 @@ Example use cases:
 - Compliance logs → Glacier Deep Archive
 - Media → Standard-IA in cheaper region
 
+![Storage Class](SSS-storage-class.png)
+
 ---
 
 ### **Step 6 — Enable Support for Delete Markers (Important)**
