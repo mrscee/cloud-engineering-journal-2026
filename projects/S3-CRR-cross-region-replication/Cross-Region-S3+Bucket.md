@@ -79,7 +79,7 @@ This object will later be used to verify replication behavior.
 
 > ⚠️ **Both buckets must have versioning enabled for CRR to work.**
 
-![Bucket Versioning](./img/SSS-bucket-versioning.png)
+![Bucket Versioning](./SSS-bucket-versioning.png)
 
 ---
 
