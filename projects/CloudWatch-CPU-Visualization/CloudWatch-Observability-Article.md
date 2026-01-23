@@ -75,6 +75,7 @@ This produced a single widget showing the average CPU utilization trend for all 
 
 ## Screenshot
 
-![Screenshot with steps graphic](./Assets/cw-ec2-explorer-metric.png)
+![EC2 Explorer Metric](./assets/cw-ec2-explorer-metric.png)
+
 
 
