@@ -175,6 +175,10 @@ Replication is **asynchronous**, so there may be slight delay before the object 
 | **Version-aware** | Handles object updates + overwrites |
 | **IAM enforced** | Requires managed role + policies |
 
+### Replication Observability & Logging
+
+A key real-world feature surfaced in the lab was the ability to enable replication metrics and event logging. AWS allows replication activity to be tracked through CloudWatch metrics and EventBridge events, and logs can optionally be stored in a destination bucket. This provides operational visibility into replication health, latency, failure events, and retry behavior — an essential capability for enterprise environments where replication pipelines must be monitored and auditable.
+
 ---
 
 ## 🧾 Cost Considerations (Real-World Insight)
