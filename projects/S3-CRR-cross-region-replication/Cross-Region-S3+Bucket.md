@@ -1,4 +1,4 @@
-# Cross-Region S3 Bucket Replication (Hands-On Lab)
+# Cross-Region S3 Bucket Replication (Hands-On Implementation)
 
 **Objective:**  
 Set up Amazon S3 Cross-Region Replication (CRR) so that objects uploaded to a **source bucket** in Region A are automatically replicated to a **destination bucket** in Region B for resilience, durability, and availability during regional failures.
@@ -22,7 +22,7 @@ Industries that rely on CRR include financial services, healthcare, media, and g
 
 - AWS Management Console
 - Two AWS Regions (Region A → Region B)
-- No CLI or IaC in this lab (console-based)
+- No CLI or IaC in this hands-on (console-based)
 
 ---
 
@@ -42,7 +42,7 @@ Without versioning, replication cannot track lineage or state change.
 
 ---
 
-## 📝 Lab Walkthrough — Step by Step
+## 📝 Hands-on Walkthrough — Step by Step
 
 ### **Step 1 — Create the Source S3 Bucket**
 
@@ -54,7 +54,7 @@ Without versioning, replication cannot track lineage or state change.
    `Enable` → **Required for replication**
 6. Accept defaults and create the bucket
 
-> 💡 **Observation:** AWS strongly recommends `Block Public Access` for new buckets for security.
+> 💡 Observation: New S3 buckets have Block Public Access enabled by default, which prevents accidental object exposure and aligns with AWS security best practices for least-privilege storage provisioning.
 
 ---
 
@@ -120,7 +120,7 @@ During the destination configuration, AWS allows you to select a different **sto
 
 > **Interesting note:**  
 > Replication rules can down-tier data for cost optimization or archival compliance.  
-> Although this lab left defaults at `Standard`, it’s useful to know this exists for real workloads.
+> Although the approach left defaults at `Standard`, it’s useful to know this exists for real workloads.
 
 Example use cases:
 - Compliance logs → Glacier Deep Archive
@@ -177,7 +177,7 @@ Replication is **asynchronous**, so there may be slight delay before the object 
 
 ### Replication Observability & Logging
 
-A key real-world feature surfaced in the lab was the ability to enable replication metrics and event logging. AWS allows replication activity to be tracked through CloudWatch metrics and EventBridge events, and logs can optionally be stored in a destination bucket. This provides operational visibility into replication health, latency, failure events, and retry behavior — an essential capability for enterprise environments where replication pipelines must be monitored and auditable.
+A key real-world feature that surfaced in the hands-on implementation was the ability to enable replication metrics and event logging. AWS allows replication activity to be tracked through CloudWatch metrics and EventBridge events, and logs can optionally be stored in a destination bucket. This provides operational visibility into replication health, latency, failure events, and retry behavior — an essential capability for enterprise environments where replication pipelines must be monitored and auditable.
 
 ---
 
@@ -232,6 +232,6 @@ They are **not** expected to memorize console steps, but they should be able to:
 
 ## Final Reflection
 
-This lab simulated a light version of what real teams do to harden storage against regional failures. The implementation was simple, but the capability is foundational to AWS resilience and compliance architectures.
+This crr implementation simulated a light version of what real teams do to harden storage against regional failures. The implementation was simple, but the capability is foundational to AWS resilience and compliance architectures.
 
 
