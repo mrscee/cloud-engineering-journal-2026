@@ -207,6 +207,7 @@ You would suggest CRR when a customer requires:
 
 ---
 
+<!--
 ## 🎓 Would a Junior Cloud Engineer Be Expected to Know This?
 
 Yes, at a conceptual level:
@@ -222,7 +223,7 @@ A junior engineer should know:
 They are **not** expected to memorize console steps, but they should be able to:
 
 > identify when it is appropriate to recommend CRR
-
+-->
 ---
 
 ## Final Reflection
