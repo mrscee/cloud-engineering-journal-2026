@@ -79,6 +79,8 @@ This object will later be used to verify replication behavior.
 
 > ⚠️ **Both buckets must have versioning enabled for CRR to work.**
 
+![Bucket Versioning](./img/SSS-bucket-versioning.png)
+
 ---
 
 ### **Step 4 — Create Replication Rule on the Source Bucket**
