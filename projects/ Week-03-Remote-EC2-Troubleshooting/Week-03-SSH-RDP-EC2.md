@@ -50,9 +50,7 @@ Both protocols provide secure, encrypted channels for remote login and are widel
    e. Choose **My IP** as source type for single-source admin connection  
    f. Launch the instance  
 
-**Screenshot:**  
-`assets/B_ssh-step-1.png`
-
+![SSH Step 1](./assets/B_ssh-step-1.png)
 ---
 
 ### Step 2 — Connect via SSH
