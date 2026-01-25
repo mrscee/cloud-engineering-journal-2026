@@ -50,7 +50,7 @@ Both protocols provide secure, encrypted channels for remote login and are widel
    e. Choose **My IP** as source type for single-source admin connection  
    f. Launch the instance  
 
-![SSH Step 1](./assets/B_ssh-step-1.png)
+![SSH Step 1](./assets/B_ssh-step-1.jpg)
 ---
 
 ### Step 2 — Connect via SSH
@@ -63,7 +63,7 @@ Both protocols provide secure, encrypted channels for remote login and are widel
    e. Navigate to the folder with the key pair and execute the command  
 
 
-`assets/C_connect-step-2.jpg`
+![SSH Connect Step 2](./assets/C_connect-step-2.jpg)
 
 ---
 
@@ -89,7 +89,7 @@ Both protocols provide secure, encrypted channels for remote login and are widel
    c. Under **RDP client**, click **Get password**
 
 
-`assets/E_rdp-get-pw.jpg`
+![RDP Connect — Get Password](./assets/D_rdp-connect-pw.jpg)
 
 ---
 
@@ -101,7 +101,7 @@ Both protocols provide secure, encrypted channels for remote login and are widel
    c. Capture username and password for RDP client  
 
  
-`assets/D_rdp-connect-pw.jpg`
+![RDP — Password Decryption](./assets/E_rdp-get-pw.jpg)
 
 ---
 
@@ -113,7 +113,7 @@ Both protocols provide secure, encrypted channels for remote login and are widel
    c. Accept the certificate prompt and continue  
 
   
-`assets/F_rdp-screens-to-desktop.jpg`
+![RDP — Windows Desktop](./assets/F_rdp-screens-to-desktop.jpg)
 
 ---
 
