@@ -62,8 +62,8 @@ Both protocols provide secure, encrypted channels for remote login and are widel
    d. Copy the provided command to your SSH client (PowerShell)  
    e. Navigate to the folder with the key pair and execute the command  
 
-**Screenshot:**  
-`assets/C_connect-step-2.png`
+
+`assets/C_connect-step-2.jpg`
 
 ---
 
@@ -88,8 +88,8 @@ Both protocols provide secure, encrypted channels for remote login and are widel
    b. Click **Connect**  
    c. Under **RDP client**, click **Get password**
 
-**Screenshot:**  
-`assets/E_rdp-get-pw.png`
+
+`assets/E_rdp-get-pw.jpg`
 
 ---
 
@@ -100,8 +100,8 @@ Both protocols provide secure, encrypted channels for remote login and are widel
    b. Click **Decrypt password**  
    c. Capture username and password for RDP client  
 
-**Screenshot:**  
-`assets/D_rdp-connect-pw.png`
+ 
+`assets/D_rdp-connect-pw.jpg`
 
 ---
 
@@ -110,10 +110,10 @@ Both protocols provide secure, encrypted channels for remote login and are widel
 4. Connect using RDP client:
    a. Open the RDP client  
    b. Enter obtained credentials  
-   c. Accept certificate prompt and continue  
+   c. Accept the certificate prompt and continue  
 
-**Screenshot:**  
-`assets/F_rdp-screens-to-desktop.png`
+  
+`assets/F_rdp-screens-to-desktop.jpg`
 
 ---
 
