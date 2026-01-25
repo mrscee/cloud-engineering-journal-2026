@@ -1,6 +1,6 @@
 # How L.U. Corp Standardized Remote Access in AWS
 ### Use Case: Secure Remote Access via SSH and RDP
-_By Comfort Benton — Cloud DevOps Engineer_
+_By Comfort Benton | Cloud DevOps Engineer_
 
 ---
 
