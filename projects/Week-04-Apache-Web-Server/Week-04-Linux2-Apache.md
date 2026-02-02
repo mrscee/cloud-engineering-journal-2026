@@ -43,7 +43,10 @@ Before installing any services, system packages are updated to ensure the instan
 
 ```bash
 sudo yum update -y
-Step 3: Install Apache Web Server
+
+---
+
+### Step 3: Install Apache Web Server
 
 Apache is installed using the Amazon Linux package manager.
 sudo yum install httpd -y
