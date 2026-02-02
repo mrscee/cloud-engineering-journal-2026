@@ -90,7 +90,7 @@ sudo nano /var/www/html/index.html
     <p>This Apache web server is running on Amazon Linux 2.</p>
 </body>
 </html>
-
+```
 
 
 ---
