@@ -41,7 +41,6 @@ An SSH connection is established to securely access the Amazon Linux 2 EC2 insta
 ### Step 2: Update System Packages
 Before installing any services, system packages are updated to ensure the instance has the latest patches and dependencies.
 
-```bash
 sudo yum update -y
 
 ---
