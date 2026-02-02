@@ -34,7 +34,9 @@ An SSH connection is established to securely access the Amazon Linux 2 EC2 insta
 ### Step 2: Update System Packages
 Before installing any services, system packages are updated to ensure the instance has the latest patches and dependencies.
 
+```bash
 sudo yum update -y
+```
 
 ---
 
@@ -42,28 +44,35 @@ sudo yum update -y
 
 Apache is installed using the Amazon Linux package manager.
 
+```bash
 sudo yum install httpd -y
+```
 
 ---
 
 ### Step 4: Start and Enable Apache
 The Apache service is started and enabled to ensure it runs automatically on system reboot.
 
+```bash
 sudo systemctl start httpd
-
 sudo systemctl enable httpd
+```
 
 ---
 
 ### Step 5: Verify Apache is Running
 The status of the Apache service is checked to confirm it is active and running.
 
+```bash
 sudo systemctl status httpd
+```
 
 ---
 
 ###Step 6: Allow HTTP Traffic in the Security Group
 Inbound rules are updated to allow HTTP traffic on port 80 so the web server can be accessed publicly.
+
+![Step 6](assets/step6.jpg)
 
 ---
 
@@ -77,7 +86,9 @@ Navigating to the instance’s public IP address displays the Apache default tes
 ### Step 8: Replace the Apache Test Page with a Custom index.html
 A custom index.html file is created in the Apache document root to replace the default test page and confirm control over the served content.
 
+```bash
 sudo nano /var/www/html/index.html
+```
 
 ```bash
 <!DOCTYPE html>
@@ -115,8 +126,10 @@ Error logs capture issues encountered while processing those requests
 
 Recent log entries were reviewed and redirected into separate files for easier analysis and record-keeping.
 
+```bash
 sudo tail -n 15 /var/log/httpd/access_log | sudo tee /var/log/httpd/AccessLogs_$(date +%F).txt > /dev/null
 sudo tail -n 15 /var/log/httpd/error_log  | sudo tee /var/log/httpd/ErrorLogs_$(date +%F).txt  > /dev/null
+```
 
 This process demonstrates how logs are commonly reviewed during troubleshooting in production environments.
 
