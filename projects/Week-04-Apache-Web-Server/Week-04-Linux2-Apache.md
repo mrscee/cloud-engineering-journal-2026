@@ -41,6 +41,7 @@ sudo yum update -y
 ### Step 3: Install Apache Web Server
 
 Apache is installed using the Amazon Linux package manager.
+
 sudo yum install httpd -y
 
 ---
@@ -49,6 +50,7 @@ sudo yum install httpd -y
 The Apache service is started and enabled to ensure it runs automatically on system reboot.
 
 sudo systemctl start httpd
+
 sudo systemctl enable httpd
 
 ---
@@ -68,12 +70,28 @@ Inbound rules are updated to allow HTTP traffic on port 80 so the web server can
 ### Step 7: Verify the Web Server in a Browser
 Navigating to the instance’s public IP address displays the Apache default test page, confirming the server is installed correctly and accessible over the internet.
 
+![Step 7](assets/step7.jpg)
+
 ---
 
 ### Step 8: Replace the Apache Test Page with a Custom index.html
 A custom index.html file is created in the Apache document root to replace the default test page and confirm control over the served content.
 
 sudo nano /var/www/html/index.html
+
+'''bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome to LU Holdings!</h1>
+    <p>This Apache web server is running on Amazon Linux 2.</p>
+</body>
+</html>
+
+
 
 ---
 
