@@ -69,7 +69,7 @@ sudo systemctl status httpd
 
 ---
 
-###Step 6: Allow HTTP Traffic in the Security Group
+### Step 6: Allow HTTP Traffic in the Security Group
 Inbound rules are updated to allow HTTP traffic on port 80 so the web server can be accessed publicly.
 
 ![Step 6](assets/step6.jpg)
