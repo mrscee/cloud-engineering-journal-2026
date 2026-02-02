@@ -79,7 +79,7 @@ A custom index.html file is created in the Apache document root to replace the d
 
 sudo nano /var/www/html/index.html
 
-'''bash
+```bash
 <!DOCTYPE html>
 <html>
 <head>
