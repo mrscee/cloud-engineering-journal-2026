@@ -11,4 +11,4 @@ They include:
 They are intentionally kept private while I share curated projects and write-ups publicly.
 
 🔒 Private repository:
-https://[github.com/YOUR_USERNAME/cloud-engineering-journal-2026-logs](https://github.com/mrscee/cloud-engineering-journal-2026-logs)
+https://[github.com/mrscee/cloud-engineering-journal-2026-logs](https://github.com/mrscee/cloud-engineering-journal-2026-logs)
