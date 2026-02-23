@@ -46,9 +46,8 @@ By completing this project I was able to:
 - **Purpose:** Controlled testing environment
 
 📸 **Environmental Setup**
-
+```markdown
 ![Environmental Setup](assets/wf1/13. Environmental Setup.jpg)
-!projects/20260214-linux-system-observability/assets/wf1/13. Environmental Setup.jpg
 
 
 
