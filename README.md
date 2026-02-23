@@ -5,7 +5,7 @@
 <h1 align="center">Cloud Engineering Journal (2026)</h1>
 
 <p align="center">
-Transitioning into Cloud Engineering through hands-on infrastructure, observability, and DevOps practice.
+Cloud Engineering through hands-on infrastructure, observability, and DevOps practice.
 </p>
 
 #  
