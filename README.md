@@ -13,7 +13,7 @@ It serves as a living portfolio demonstrating how I design, build, test, and tro
 My focus is on building production-relevant skills, including system observability, performance testing, automation, and infrastructure reliability.
 
 
-# What This Repository Contains
+# 📦 What This Repository Contains
 
 - Hands-on cloud labs and engineering projects
 - Infrastructure experiments and system troubleshooting scenarios
@@ -24,7 +24,7 @@ My focus is on building production-relevant skills, including system observabili
 
 Each project demonstrates real-world engineering thinking rather than theoretical learning.
 
-## Purpose
+## 🎯 Purpose
 
 - Build production-relevant cloud engineering skills
 - Develop hands-on experience with AWS and DevOps tooling
@@ -32,7 +32,7 @@ Each project demonstrates real-world engineering thinking rather than theoretica
 - Demonstrate technical growth and operational thinking
 - Showcase practical experience for cloud engineering roles
 
-## Technologies & Tools
+## 🛠️ Technologies & Tools
 
 Technologies & Tools
 
@@ -45,29 +45,29 @@ Technologies & Tools
 
 Additional technologies will be added as my work expands.
 
-## Repository Structure
+## 🗂️ Repository Structure
 ### Quick Navigation
 - [Weekly Logs](/logs)
 - [Projects](/projects)
 - [Resources](/resources)
 
 
-## Logs
+## 📝 Logs
 
 Weekly learning and practice summaries.
 `/logs`
 
-## Projects
+## 🚀 Projects
 
 Hands-on workflows, infrastructure builds, and technical implementations.
 `/projects`
 
-## Resources
+## 📚 Resources
 
 Supporting materials, references, and reusable tools.
 `/resources`
 
-## Background & Phase Transition
+## 🌱 Background & Phase Transition
 
 This journal continues from my foundational AWS training:
 
@@ -76,7 +76,7 @@ This journal continues from my foundational AWS training:
 That phase focused on AWS fundamentals and Terraform practice.
 This repository documents my transition into applied cloud engineering work.
 
-## Current Direction
+## 🧭 Current Direction
 
 * Infrastructure automation
 * System observability and monitoring
@@ -84,7 +84,7 @@ This repository documents my transition into applied cloud engineering work.
 * Cloud reliability practices
 * DevOps workflows
 
-## Next Steps
+## 🔜 Next Steps
 
 * Continue documenting hands-on projects
 * Expand infrastructure automation work
