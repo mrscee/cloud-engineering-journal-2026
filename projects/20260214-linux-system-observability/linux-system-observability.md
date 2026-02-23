@@ -46,7 +46,9 @@ By completing this project I was able to:
 - **Purpose:** Controlled testing environment
 
 📸 **Environmental Setup**
-```markdown
-![Environmental Setup](./assets/wf1/13. Environmental Setup.jpg)
+
+![Environmental Setup](assets/wf1/13. Environmental Setup.jpg)
+
+
 
 
