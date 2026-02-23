@@ -47,6 +47,6 @@ By completing this project I was able to:
 
 📸 **Environmental Setup**
 ```markdown
-![Environmental Setup](assets/wf1/13. Environmental Setup.jpg)
+![Environmental Setup](./assets/wf1/13. Environmental Setup.jpg)
 
 
