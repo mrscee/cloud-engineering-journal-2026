@@ -45,10 +45,7 @@ By completing this project I was able to:
 - **OS:** Ubuntu 24.04 LTS (VirtualBox VM)
 - **Purpose:** Controlled testing environment
 
----
+📸 **Environmental Setup**
+```markdown
+![Environmental Setup](assets/wf1/13. Environmental Setup.jpg)
 
-## Install Required Packages
-
-```bash
-sudo apt update
-sudo apt install apache2 nginx lighttpd sysstat curl bc time quota e2fsprogs nmap
