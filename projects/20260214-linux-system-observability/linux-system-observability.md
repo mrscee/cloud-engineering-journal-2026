@@ -48,7 +48,7 @@ By completing this project I was able to:
 📸 **Environmental Setup**
 
 ![Environmental Setup](assets/wf1/13. Environmental Setup.jpg)
-
+!projects/20260214-linux-system-observability/assets/wf1/13. Environmental Setup.jpg
 
 
 
