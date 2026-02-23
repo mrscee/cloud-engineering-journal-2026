@@ -4,10 +4,11 @@
 
 <h1 align="center">Cloud Engineering Journal (2026)</h1>
 
- <p align="center">
+<p align="center">
 Transitioning into Cloud Engineering through hands-on infrastructure, observability, and DevOps practice.
 </p>
-# 
+
+#  
 
 This repository documents my hands-on journey transitioning into cloud engineering through real infrastructure work, system operations, and DevOps practices.
 
