@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="resources/CC_Logo.png" width="420">
+  <img src="resources/CC_Logo.png" width="280">
 </p>
 
 <h1 align="center">Cloud Engineering Journal (2026)</h1>
