@@ -47,15 +47,6 @@ Logs are located here:
 Project artifacts, labs, and cloud builds live here:  
 `/projects`
 
-## Recent Progress
-
-(Will fill over time; examples below)
-
-- Week 01: Cloud Foundations, storage, databases
-- Week 02: Deployment, migration and AI
-- Week 03: Monitoring, metrics, and CloudWatch, Pricing
-- Week 04: (to be added)
-
 ## Background & Phase Transition
 
 This journal continues from an earlier 12-week training phase focused on foundational AWS and Terraform practice:
