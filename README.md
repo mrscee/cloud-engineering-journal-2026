@@ -72,19 +72,16 @@ This repository documents my transition into applied cloud engineering work.
 
 ## Current Direction
 
-Infrastructure automation
-System observability and monitoring
-Linux system operations
-Cloud reliability practices
-DevOps workflows
+* Infrastructure automation
+* System observability and monitoring
+* Linux system operations
+* Cloud reliability practices
+* DevOps workflows
 
 ## Next Steps
 
-Continue documenting hands-on projects
-
-Expand infrastructure automation work
-
-Build end-to-end cloud systems
-
-Implement CI/CD and DevOps pipelines
+* Continue documenting hands-on projects
+* Expand infrastructure automation work
+* Build end-to-end cloud systems
+* Implement CI/CD and DevOps pipelines
 
