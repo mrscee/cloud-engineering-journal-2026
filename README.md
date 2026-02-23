@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="resources/CC_logo.png" width="140">
+</p>
+
+<h1 align="center">Cloud Engineering Journal (2026)</h1>
+
 # Cloud Engineering Journal (2026)
 
 This repository documents my hands-on journey transitioning into cloud engineering through real infrastructure work, system operations, and DevOps practices.
