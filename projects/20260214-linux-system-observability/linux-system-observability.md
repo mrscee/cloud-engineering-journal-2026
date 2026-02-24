@@ -47,12 +47,51 @@ By completing this project I was able to:
 
 📸 **Environmental Setup**
 ```markdown
-![Environmental Setup](assets/wf1/environmental-setup.jpg)
+![Environmental Setup](assets/wf1/13. Environmental Setup.jpg)
+
+Service Configuration & Shared Test Page
+
+📸 Shared Test Page Created
+![Shared Test Page](assets/wf1/14 Shared test page created.jpg)
+
+🚀 Project Breakdown
+1️⃣ Web Server Stress Test & Performance Comparison
+Script Creation
+
+📸 Script Open in Nano
+![Script Open](assets/wf1/21. script open in nano.jpg)
+
+Script Execution
+📸 chmod Command Success
+![chmod success](assets/wf1/22. chmod command success.jpg)
+
+📸 Script Running Output
+![Script output](assets/wf1/23. script running + output.jpg)
+
+Benchmark Log Results
+📸 Log Contents
+![Log contents](assets/wf1/25. log contents.jpg)
+
+Observations
+* All servers delivered static content reliably with 0 failed requests.
+* Performance differences were small at low load.
+* Monitoring and configuration matter more than raw speed.
 
 
-# Test Image
 
-![Test](assets/wf1/environmental-setup.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
