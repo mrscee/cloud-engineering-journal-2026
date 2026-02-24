@@ -46,53 +46,53 @@ By completing this project I was able to:
 - **Purpose:** Controlled testing environment
 
 📸 **Environmental Setup**
-```markdown
-![Environmental Setup](assets/wf1/13. Environmental Setup.jpg)
-```
 
-Service Configuration & Shared Test Page
+![Environmental Setup](assets/wf1/13EnvironmentalSetup.jpg)
 
-📸 Shared Test Page Created
-![Shared Test Page](assets/wf1/14 Shared test page created.jpg)
+---
 
-🚀 Project Breakdown
-1️⃣ Web Server Stress Test & Performance Comparison
-Script Creation
+## Service Configuration & Shared Test Page
 
-📸 Script Open in Nano
-![Script Open](assets/wf1/21. script open in nano.jpg)
+📸 **Shared Test Page Created**
 
-Script Execution
-📸 chmod Command Success
-![chmod success](assets/wf1/22. chmod command success.jpg)
+![Shared Test Page](assets/wf1/14sharedtestpagecreated.jpg)
 
-📸 Script Running Output
-![Script output](assets/wf1/23. script running + output.jpg)
+---
 
-Benchmark Log Results
-📸 Log Contents
-![Log contents](assets/wf1/25. log contents.jpg)
+# 🚀 Project Breakdown
 
-Observations
-* All servers delivered static content reliably with 0 failed requests.
-* Performance differences were small at low load.
-* Monitoring and configuration matter more than raw speed.
+## 1️⃣ Web Server Stress Test & Performance Comparison
 
+### Script Creation
 
+📸 **Script Open in Nano**
 
+![Script Open](assets/wf1/21scriptopeninnano.jpg)
 
+---
 
+### Script Execution
 
+📸 **chmod Command Success**
 
+![chmod success](assets/wf1/22chmodcommandsuccess.jpg)
 
+📸 **Script Running Output**
 
+![Script output](assets/wf1/23scriptrunningoutput.jpg)
 
+---
 
+### Benchmark Log Results
 
+📸 **Log Contents**
 
+![Log contents](assets/wf1/25logcontents.jpg)
 
+---
 
+## Observations
 
-
-
-
+- All servers delivered static content reliably with 0 failed requests.
+- Performance differences were small at low load.
+- Monitoring and configuration matter more than raw speed.
