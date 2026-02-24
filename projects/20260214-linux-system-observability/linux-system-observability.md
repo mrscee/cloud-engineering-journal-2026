@@ -183,7 +183,7 @@ This mirrors production service benchmarking, capacity planning, and infrastruct
 
 ---
 
-## 2️⃣ Detecting CPU Overuse and Alerting via Script
+## 2️⃣ Detecting CPU Overuse and Alerting via Script (Automated Monitoring)
 
 ### Scenario
 
