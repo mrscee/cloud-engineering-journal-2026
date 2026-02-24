@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/Medium6Hero.png" width="280">
+</p>
+
 # Linux System Health  
 ## Performance, Monitoring, and Failure Simulation  
 **By Comfort Benton | Cloud Engineer**
