@@ -93,7 +93,7 @@ This initial version focuses on simplicity and clarity while building a strong f
 ## 📁 Project Structure (Planned)
 
 ```
-2026-0301-CITC-S3-static-site/
+20260301-CITC-S3-static-site/
 ├── website/
 │   ├── index.html
 │   ├── style.css
