@@ -185,12 +185,6 @@ This reflects real-world cloud engineering workflows.
 
 ---
 
-# 📊 Environment Overview
-
-![Architecture Diagram](assets/LUIT_Week 8_9_Demos.png)
-
----
-
 # 🖼️ EC2 Dashboard Overview
 
 ![EC2 Instances](assets/ec2-console-instances.jpg)
