@@ -58,7 +58,8 @@ systemctl enable httpd
 
 ## 🌐 Verification
 
-![Apache Success - Phase 1](assets/ec2-dashboard-overview.jpg)
+![AMI Instance](assets/ec2-ami-clone-instance.jpg)
+
 
 ---
 
