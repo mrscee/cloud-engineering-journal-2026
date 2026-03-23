@@ -95,8 +95,6 @@ An AMI allows you to:
 
 ## 🖼️ Launching from AMI
 
-![AMI Instance](assets/ec2-ami-clone-instance.jpg)
-
 ---
 
 ## ✅ Result
