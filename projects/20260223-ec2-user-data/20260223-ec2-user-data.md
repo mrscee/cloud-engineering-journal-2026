@@ -186,7 +186,7 @@ This reflects real-world cloud engineering workflows.
 
 # 🖼️ EC2 Dashboard Overview
 
-![EC2 Instances](assets/ec2-console-instances.jpg)
+![Apache Success - Phase 1](assets/ec2-dashboard-overview.jpg)
 
 ---
 
