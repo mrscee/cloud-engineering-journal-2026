@@ -58,7 +58,7 @@ systemctl enable httpd
 
 ## 🌐 Verification
 
-![AMI Instance](assets/ec2-ami-clone-instance.jpg)
+![AMI Instance](assets/ec2-console-instances.jpg)
 
 
 ---
