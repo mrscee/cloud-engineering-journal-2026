@@ -117,7 +117,7 @@ This can make it appear as though an extra zone exists, when it is simply a diff
 
 ## 📸 Architecture Diagram
 
-![AWS Highly Available Web Architecture with ALB and Auto Scaling](projects/20260412-Highly-Available-Web/assets/CBentonCDA02WM2.png)
+projects/20260412-Highly-Available-Web/assets/CBentonCDA02WM2.png
 
 🔗 Related Write-Up
 
