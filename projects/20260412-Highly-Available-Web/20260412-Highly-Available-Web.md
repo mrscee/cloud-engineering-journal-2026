@@ -115,11 +115,13 @@ This can make it appear as though an extra zone exists, when it is simply a diff
 
 📸 Architecture Diagram
 
-(Insert your diagram image here)
+## 📸 Architecture Diagram
+
+![AWS Highly Available Web Architecture with ALB and Auto Scaling](projects/20260412-Highly-Available-Web/assets/CBentonCDA02WM2.png)
 
 🔗 Related Write-Up
 
-👉 Medium Article
+👉 [Medium Article](https://medium.com/@mrsceebenton2/building-a-highly-available-web-architecture-4c2997c7d5ae)
 
 🚀 Future Improvements
 Move EC2 instances to private subnets
